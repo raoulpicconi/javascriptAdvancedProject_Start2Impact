@@ -1,0 +1,32 @@
+body{
+    max-width: 800px;
+    background-color: bisque;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 7vw;
+}
+.book-img{
+    font-size: 20vw;
+}
+
+.form-control{
+    border-radius: 20px;
+}
+
+#bookList{
+    max-width: 600px;
+}
+
+button{
+    font-size: 40px;
+    border: none;
+    background-color: none;
+}
+
+.hide{
+    display: none;
+}

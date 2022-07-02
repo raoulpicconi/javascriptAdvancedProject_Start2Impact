@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1 class="title">
+        <span class="book-img">📖</span><br>
+        Search books by subjects
+    </h1>
+    <form id="mainForm">
+        <div class="container-md form-group-row text-center mt-3">
+            <input class="form-control form-control-lg" name="searchBar" type="text">
+            <button class="btn btn-outline-primary btn-lg mt-3 mb-3" name="submit" type="submit">Search</button>
+        </div>
+    </form>
+    <ul id="bookList" class="container-sm d-flex flex-column"></ul>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="dist/main.bundle.js"></script>
+</body>
+</html>
